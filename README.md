@@ -1,20 +1,25 @@
 # 神奇播放器
 
-macOS 视频播放器。
+macOS 视频播放器，支持 MKV 直读、杜比视界、HDR10+、Atmos，可挂载迅雷/百度网盘与 WebDAV。
 
 ## 下载
 
-到 [Releases](https://github.com/ttlup/MagicPlayer-dl-kb6fxvfe/releases/latest) 下载最新的 `AuroraPlayer-x.y.z.zip`。
+到 [最新版本](../../releases/latest) 下载 `神奇播放器-x.y.z.dmg`。
 
 ## 安装
 
-1. 解压 zip，把 `神奇播放器.app` 拖进「应用程序」文件夹
-2. 首次打开如果提示「无法验证开发者」，打开「终端」执行一次：
+1. 双击打开 DMG
+2. 把左边的「神奇播放器」拖到右边的「应用程序」文件夹
+3. 第一次打开如果提示「无法验证开发者」，打开「终端」执行一次：
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/神奇播放器.app
+xattr -dr com.apple.quarantine "/Applications/神奇播放器.app"
 ```
 
-之后可以正常双击启动，应用内的自动更新也不需要再执行这条命令。
+之后双击就能正常启动，应用内的自动更新也不需要再执行这条命令。
 
-（因为本项目没有付费的 Apple 开发者账号，安装包只能自签名。）
+> 本项目没有付费的 Apple 开发者账号，安装包只能自签名，macOS 会因此提示来源不明。这条命令只是去掉系统的隔离标记，不改变软件本身。
+
+## 系统要求
+
+macOS 14 或更高版本，Apple 芯片（arm64）。
