@@ -1,0 +1,13 @@
+{
+  "version": "1.0.2",
+  "build": 5,
+  "assetURL": "https://github.com/ttlup/MagicPlayer/releases/download/v1.0.2/AuroraPlayer-1.0.2.zip",
+  "assetID": 763142871,
+  "size": 81080693,
+  "sha256": "f6fb6ebf01b8d9ab1fd880fa470e773c7572581929f58f525114ecf85fd9e6ed",
+  "notes": "1.0.2\n\n新增\n- 收藏：详情页与右键菜单可收藏，首页轮播展示收藏的影视\n- 播放设置面板：字幕字号/位置/描边、快进秒数、方向键长按行为、控制条隐藏时间\n- 播放界面选集：多季可切季跳集\n- 文件浏览：按媒体源和目录列出真实文件名与解析结果，便于排查刮削问题\n- 隐藏条目：可把刮削异常的条目移出海报墙，随时恢复\n\n改进\n- 首页重新设计：整幅海报打底 + 下半部渐进式高斯模糊 + 内容叠层\n- 首页继续观看限 6 项，可跳转历史记录；最近添加可在设置关闭\n- 刮削：同剧同季只搜一次；多季按季分别刮削，季号支持中文数字\n- 网盘扫描：WebDAV 与百度均改为 6 路并发列目录\n- 多文件电影合并为一张卡，详情页可选文件并标注本地/网盘来源\n\n修复\n- PGS 位图字幕不显示（蓝光片源常见）\n- 暂停时调节音量图标不更新\n- 截图失败（改为原分辨率取帧，失败回退渲染层）\n- 剧集多季海报与标题相同\n- 片名提取：去掉画质与音轨说明，修正目录名优先规则\n- 右键菜单「编辑媒体源」无响应；移除媒体源增加确认\n- 系统文本编辑菜单显示英文",
+  "publishedAt": "2026-11-18T11:31:42Z",
+  "minimumRequiredVersion": "1.0.2",
+  "forceAfterSeconds": 3600,
+  "signature": "91Aa33ZaZmNwQfDWBKWr3gzx0L3y9x7CHrYJsygDfVT9MfRtN1RvFMVINl1y0AMhlPLp0LTtM5ZaTraW1yV+BQ=="
+}
