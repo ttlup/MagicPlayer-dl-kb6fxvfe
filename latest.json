@@ -1,7 +1,7 @@
 {
   "version": "1.0.2",
   "build": 5,
-  "assetURL": "https://github.com/ttlup/MagicPlayer/releases/download/v1.0.2/AuroraPlayer-1.0.2.zip",
+  "assetURL": "https://github.com/ttlup/MagicPlayer-dl-kb6fxvfe/releases/download/v1.0.2/AuroraPlayer-1.0.2.zip",
   "assetID": 763142871,
   "size": 81080693,
   "sha256": "f6fb6ebf01b8d9ab1fd880fa470e773c7572581929f58f525114ecf85fd9e6ed",
@@ -9,5 +9,5 @@
   "publishedAt": "2026-11-18T11:31:42Z",
   "minimumRequiredVersion": "1.0.2",
   "forceAfterSeconds": 3600,
-  "signature": "91Aa33ZaZmNwQfDWBKWr3gzx0L3y9x7CHrYJsygDfVT9MfRtN1RvFMVINl1y0AMhlPLp0LTtM5ZaTraW1yV+BQ=="
+  "signature": "zCKr1H4USflkEUz/S2mb9NHOYdhy39p9f8KtCneyosic4h3/CtDsEDPJVvnmg9BaXSkoHjtqCfYC45Q8fODyCg=="
 }
